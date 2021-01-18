@@ -58,6 +58,12 @@ const routerCao =  ()  => {
         }
     }
 
+    // 处理浏览器前进后退操作
+    window.addEventListener('popstate', () => {
+        let location = Location();
+        listeners.forEach((fn: any) => fn(location));
+    });
+
     return {
         listen,
         push,

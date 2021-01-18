@@ -37,7 +37,30 @@ export const GlobalRouter = ({ children, routerDate }: GlobalRouterType) => {
         routerCao().listen( location => {
             setLocation(location);
         });
+
+        if (!isErro()) {
+            routerCao().push('/404');
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
+
+    // 是否重定向
+    const isErro = (): boolean => {
+        let state = false;
+        routers.forEach((res: any) => {
+            if (res.path === location.pathname) {
+                state =  true;
+            }
+            if (res.children.length > 1) {
+                res.children.forEach((item: any) => {
+                    if (res.path + item.path === location.pathname) {
+                        state =  true;
+                    }
+                })
+            }
+        })
+        return state;
+    }
 
     return (
         <globalRouteState.Provider value={{ routerCao, location }}>
@@ -60,4 +83,4 @@ export const GlobalRouter = ({ children, routerDate }: GlobalRouterType) => {
             { children }
         </globalRouteState.Provider>
     );
-}
+};

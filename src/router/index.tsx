@@ -15,8 +15,10 @@ const routers = [
             {
                 path: '/b', component: () => <p>我是text下的b</p>
             }
-
         ]
+    },
+    {
+        path: '/404', component: () => <p>404</p>, children: []
     },
 ];
 
