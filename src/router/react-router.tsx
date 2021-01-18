@@ -1,10 +1,26 @@
-import { useLocation } from 'react-router-dom';
+export type State = object | null;
 
-export default () => {
-    // 存储 history.listen 回调
-    let listeners: any = [];
-    const listen = (fn: any) => {
+export type Listener = (location: Location) => void;
+
+export interface Path {
+    pathname: string;
+    search: string;
+    hash: string;
+}
+
+export interface Location<S extends State = State> extends Path {
+    state: S;
+}
+
+// 存储 history.listen 回调
+let listeners: any = [];
+
+const routerCao =  ()  => {
+
+    // 路由依赖收集
+    const listen = (fn: Listener) => {
         listeners.push(fn);
+
         return function () {
             listeners = listeners.filter((listener: any) => listener !== fn);
         }
@@ -12,7 +28,6 @@ export default () => {
 
     // 跳转
     const push = (to: string, state?: any) => {
-        // 分解 跳转信息
         const location = pullAwayLocation(to, state);
         // 调用原生history改变路由
         window.history.pushState(state, '', to);
@@ -20,7 +35,7 @@ export default () => {
         listeners.forEach((fn: any) => fn( location ));
     }
 
-    // 抽离to state;
+    // 抽离当前跳转路由;
     const pullAwayLocation = (to: string, state: any) => {
         const arr = to.split('?');
 
@@ -32,10 +47,10 @@ export default () => {
     }
 
     // 获取当前信息 state、pathname、search
-    const Location = () => {
-        const locaMess = window.location.href;
-        const arr = locaMess.split('/');
-        const { pathname, search, state } = useLocation();
+    const Location = (): any => {
+        const {state} = window.history;
+        const { pathname, search } = window.location;
+
         return {
             state,
             pathname,
@@ -48,4 +63,6 @@ export default () => {
         push,
         Location
     };
-}
+};
+
+export default routerCao;

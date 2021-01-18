@@ -1,14 +1,18 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Text from "./text";
+import { GlobalRouter } from './router/router';
+import routers from './router';
+import Test from './page/text'; // 官方指定测试区域
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <Text></Text>
+      <Suspense fallback={ <div>loading ......</div> }>
+          <GlobalRouter routerDate={routers}>
+              <Test/>
+          </GlobalRouter>
+      </Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 );
