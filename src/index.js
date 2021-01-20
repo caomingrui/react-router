@@ -4,14 +4,18 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { GlobalRouter } from './router/router';
 import routers from './router';
+import { store } from './store/vueStore/index';  // vue3.0 双向数据
+import { Provider } from './utils/ContextState'; // 公共context 集
 import Test from './page/text'; // 官方指定测试区域
 
 ReactDOM.render(
   <React.StrictMode>
       <Suspense fallback={ <div>loading ......</div> }>
-          <GlobalRouter routerDate={routers}>
-              <Test/>
-          </GlobalRouter>
+          <Provider value={ store }>
+              <GlobalRouter routerDate={ routers }>
+                  <Test/>
+              </GlobalRouter>
+          </Provider>
       </Suspense>
   </React.StrictMode>,
   document.getElementById('root')

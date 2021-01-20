@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="614be0ac-d2ea-4b5d-adb7-d93c0476a1f9" name="Default Changelist" comment="react route 练习 --- 之history假路由doge1.0.0">
+    <list default="true" id="614be0ac-d2ea-4b5d-adb7-d93c0476a1f9" name="Default Changelist" comment="react 实现 使用vue3.0新特性双向绑定">
+      <change afterPath="$PROJECT_DIR$/src/page/test2.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/vueStore/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/text.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ContextState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ContextState.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -32,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-mini-router-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-composition-api-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,12 +46,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="kite.configurable" />
     <property name="ts.external.directory.path" value="E:\react-study\react-app\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\react-study\react-app\src\store\vueStore" />
+      <recent name="E:\react-study\react-app\src\utils" />
       <recent name="E:\react-study\react-app" />
     </key>
   </component>
@@ -60,7 +68,12 @@
       <workItem from="1610694531613" duration="6785000" />
       <workItem from="1610701660166" duration="5804000" />
       <workItem from="1610937572150" duration="22511000" />
-      <workItem from="1611024001501" duration="2385000" />
+      <workItem from="1611024001501" duration="7337000" />
+      <workItem from="1611110362290" duration="2723000" />
+      <workItem from="1611114073404" duration="11208000" />
+      <workItem from="1611132306467" duration="258000" />
+      <workItem from="1611132647244" duration="1075000" />
+      <workItem from="1611133903132" duration="4652000" />
     </task>
     <task id="LOCAL-00001" summary="react route 练习 --- QAQ">
       <created>1610707699920</created>
@@ -83,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610964477469</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="react route 练习 --- 之history假路由doge1.0.1">
+      <created>1611027032817</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611027032817</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +125,12 @@
     <MESSAGE value="react route 练习 --- QAQ" />
     <MESSAGE value="react route 练习 --- 之history假路由doge" />
     <MESSAGE value="react route 练习 --- 之history假路由doge1.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="react route 练习 --- 之history假路由doge1.0.0" />
+    <MESSAGE value="react route 练习 --- 之history假路由doge1.0.1" />
+    <MESSAGE value="react 实现 使用vue3.0新特性双向绑定" />
+    <option name="LAST_COMMIT_MESSAGE" value="react 实现 使用vue3.0新特性双向绑定" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
