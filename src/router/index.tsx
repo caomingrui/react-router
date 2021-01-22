@@ -21,6 +21,12 @@ const routers = [
         path: '/test', component: React.lazy(() => import('../page/test2')), children: [] // 针对vue3.0 双向绑定
     },
     {
+        path: '/test3', component: React.lazy(() => import('../page/test3')), children: [] // 针对useContext 共享值 以及 useWatch
+    },
+    {
+        path: '/test4', component: React.lazy(() => import('../page/test4')), children: [] // 针对ts安全应用
+    },
+    {
         path: '/404', component: () => <p>404</p>, children: []
     },
 ];
