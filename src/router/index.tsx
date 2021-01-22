@@ -27,6 +27,9 @@ const routers = [
         path: '/test4', component: React.lazy(() => import('../page/test4')), children: [] // 针对ts安全应用
     },
     {
+        path: '/test5', component: React.lazy(() => import('../page/test5')), children: [] // use 生命周期
+    },
+    {
         path: '/404', component: () => <p>404</p>, children: []
     },
 ];
