@@ -12,6 +12,8 @@
     "@types/http-proxy-middleware": "^0.19.3",
     "@types/react-router-dom": "^5.1.7",
     "@types/styled-components": "^5.1.7",
+    "@vue/reactivity": "^3.0.0-alpha.3",
+    "ahooks": "^2.9.4",
     "ant": "^0.2.0",
     "http-proxy-middleware": "^1.0.6",
     "react": "^17.0.1",
@@ -19,8 +21,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4",
-    "@vue/reactivity": "^3.0.0-alpha.3"
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "craco start",

@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="614be0ac-d2ea-4b5d-adb7-d93c0476a1f9" name="Default Changelist" comment="react 实现 使用vue3.0新特性双向绑定">
-      <change afterPath="$PROJECT_DIR$/src/api/test/test4.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/test3.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/test4.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/vuex/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/hooks.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/request.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="614be0ac-d2ea-4b5d-adb7-d93c0476a1f9" name="Default Changelist" comment="根据 aHooks 自定义 useHooks">
+      <change afterPath="$PROJECT_DIR$/src/page/test5.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/test/test4.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/test/test4.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupProxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ContextState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ContextState.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/hooks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/hooks.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +77,8 @@
       <workItem from="1611133903132" duration="6876000" />
       <workItem from="1611196725845" duration="20041000" />
       <workItem from="1611224892087" duration="589000" />
-      <workItem from="1611283318216" duration="592000" />
+      <workItem from="1611283318216" duration="1136000" />
+      <workItem from="1611285867915" duration="16103000" />
     </task>
     <task id="LOCAL-00001" summary="react route 练习 --- QAQ">
       <created>1610707699920</created>
@@ -120,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611138649654</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="react hooks 模拟watch and Context 实现去哪聚数据共享">
+      <created>1611284355249</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611284355249</updated>
+    </task>
+    <task id="LOCAL-00007" summary=" .">
+      <created>1611284398915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611284398915</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +153,10 @@
     <MESSAGE value="react route 练习 --- 之history假路由doge1.0.0" />
     <MESSAGE value="react route 练习 --- 之history假路由doge1.0.1" />
     <MESSAGE value="react 实现 使用vue3.0新特性双向绑定" />
-    <option name="LAST_COMMIT_MESSAGE" value="react 实现 使用vue3.0新特性双向绑定" />
+    <MESSAGE value="react hooks 模拟watch and Context 实现去哪聚数据共享" />
+    <MESSAGE value=" ." />
+    <MESSAGE value="根据 aHooks 自定义 useHooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="根据 aHooks 自定义 useHooks" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
