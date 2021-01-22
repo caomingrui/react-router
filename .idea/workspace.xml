@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="614be0ac-d2ea-4b5d-adb7-d93c0476a1f9" name="Default Changelist" comment="react 实现 使用vue3.0新特性双向绑定">
-      <change afterPath="$PROJECT_DIR$/src/page/test2.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/vueStore/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/test/test4.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/test3.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/test4.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/vuex/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/hooks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/request.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/text.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupProxy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/ContextState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ContextState.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n5z1zfsDvVbTKbeNpxFMzd0dmH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,7 +80,10 @@
       <workItem from="1611114073404" duration="11208000" />
       <workItem from="1611132306467" duration="258000" />
       <workItem from="1611132647244" duration="1075000" />
-      <workItem from="1611133903132" duration="4652000" />
+      <workItem from="1611133903132" duration="6876000" />
+      <workItem from="1611196725845" duration="20041000" />
+      <workItem from="1611224892087" duration="589000" />
+      <workItem from="1611283318216" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="react route 练习 --- QAQ">
       <created>1610707699920</created>
@@ -103,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611027032817</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="react 实现 使用vue3.0新特性双向绑定">
+      <created>1611138649654</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611138649654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

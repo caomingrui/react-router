@@ -34,3 +34,18 @@ export const useGlobalState = () => {
 
 export const Provider = stateContext.Provider;
 // 全局store 数据 end
+
+
+// 测试context 全局数据 start
+const dataContext = React.createContext<any>(null);
+
+export const useGlobalData = () => {
+    const context = React.useContext(dataContext);
+    if (context === undefined) {
+        throw new Error('useGlobalData must be used within a dataContext');
+    }
+    return context;
+}
+
+export const ProviderDa = dataContext.Provider;
+// 测试context 全局数据 start
